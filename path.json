@@ -1,0 +1,30 @@
+{
+ "Changes": [
+  {
+   "Action": "UPSERT",
+   "ResourceRecordSet": {
+    "Name": "example.jp.",
+    "Type": "CNAME",
+    "TTL": 300,
+    "ResourceRecords": [
+     {
+      "Value": "XXXXXXXXXXXXXX.elb.amazonaws.com" 
+     }
+    ]
+   }
+  },
+  {
+   "Action": "UPSERT",
+   "ResourceRecordSet": {
+    "Name": "hoge.com.",
+    "Type": "CNAME",
+    "TTL": 300,
+    "ResourceRecords": [
+     {
+      "Value": "XXXXXXXXXXXXXX.ap-northeast-1.elb.amazonaws.com"
+     }
+    ]
+   }
+  }
+ ]
+}
